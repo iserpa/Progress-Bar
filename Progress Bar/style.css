@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overscroll-behavior-y: none;
+}
+
+section {
+  margin: 10% 15%;
+}
+
+h1, h3 {
+  text-align: center;
+  padding-top: 1.2rem;
+  padding-bottom: 0.8rem;
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 145%;
+  margin-bottom: 1rem;
+  color: rgb(30, 30, 30)
+}
+
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 8px;
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  width: 0%;
+  z-index: 100;
+  transition: width 0.2s ease-out;
+}
